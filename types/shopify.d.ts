@@ -526,7 +526,7 @@ export interface PaymentSchedule {
     subtotal_set: Currentsubtotalpriceset;
     total_tax: number;
     total_tax_set: Currentsubtotalpriceset;
-    line_item: Lineitem2;
+    line_item: LineItem2;
   }
   interface Transaction {
     id: number;

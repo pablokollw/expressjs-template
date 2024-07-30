@@ -11,6 +11,10 @@
   },
   "include": [
     "./src/**/*",
-    "types",
   ],
+  "files": [
+    "types/express.d.ts",
+    "types/axios.d.ts",
+    "types/shopify.d.ts",
+  ]
 }
